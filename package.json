@@ -1,0 +1,18 @@
+{
+  "name": "test-package",
+  "version": "1.0.0",
+  "description": "Test package for license metadata discovery.",
+  "license": "Test-License-1.0",
+  "author": "Test Package",
+  "files": [
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://example.com/test-package.git"
+  }
+}
