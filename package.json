@@ -1,10 +1,15 @@
 {
-  "name": "test-package",
+  "name": "test-package-raf",
   "version": "1.0.0",
   "description": "Test package for license metadata discovery.",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
   "license": "Test-License-1.0",
   "author": "Test Package",
   "files": [
+    "index.js",
     "LICENSE",
     "README.md"
   ],

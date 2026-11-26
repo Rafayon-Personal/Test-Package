@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: test-package-raf
+Version: 1.0.0
+Summary: Test package for license metadata discovery.
+Author: Test Package
+License-Expression: LicenseRef-Test-License-1.0
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# test-package-raf
+
+A small test package for license metadata discovery.
+
+## Usage
+
+```js
+const pkg = require("test-package-raf");
+
+console.log(pkg.license);
+```
+
+Python:
+
+```python
+import test_package_raf
+
+print(test_package_raf.license)
+```

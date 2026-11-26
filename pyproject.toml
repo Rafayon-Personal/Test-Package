@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "test-package-raf"
+version = "1.0.0"
+description = "Test package for license metadata discovery."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "Test-License-1.0"
+license-files = ["LICENSE"]
+authors = [
+  { name = "Test Package" }
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
